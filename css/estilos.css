@@ -1,0 +1,122 @@
+a, .dropdown-item{
+    color: #0d0d9b
+}
+a:hover, .dropdown-item:hover {
+    color: #8a8ace;
+    text-decoration:none;
+}
+.navbar{
+    background-color: white;
+    min-height: 90px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+.logoynombre{
+    min-width: 150px;
+    max-width: 150px;
+}
+.idk{
+    color: #0d0d9b;
+}
+.enviarcorreo{
+    margin-top: 6px;
+    background-color: #8a8ace;
+    color: white;
+}
+.enviarcorreo:hover{
+    background-color: #0d0d9b;
+    color: white;
+}
+.espacioEnBlanco{
+    height: 4vh;
+}
+.footerlogo img{
+    margin-top: 6px;
+    height: 8vh;
+}
+.footerlogo p{
+    color: #0d0d9b;
+}
+.UnDivConUnaImagenDeFondo{
+    background-image: url(../img/20.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    position: relative;
+    height: 450px;
+}
+.UnDivConUnaImagenDeFondo:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+}
+.contenedor h2, .contenedor p{
+    color: white;
+}
+.carta-glass{
+    padding: 40px;
+    height: 250px;
+    width: 500px;
+    background: rgba(13, 13, 155, 0.5);
+    /* background: rgba(138, 138, 206, 0.5); */
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    -ms-backdrop-filter: blur (10px);
+    border-radius: 10px;
+}
+@media (min-width: 280px){
+    .banner1{
+        background-image: url(../img/11.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 100vh;
+    }
+    .banner2{
+        background-image: url(../img/12.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 100vh;
+    }
+    .banner3{
+        background-image: url(../img/13.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 100vh;
+    }
+}
+@media (min-width: 740px){
+    .banner1{
+        background-image: url(../img/6.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 100vh;
+    }
+    .banner2{
+        background-image: url(../img/7.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 100vh;
+    }
+    .banner3{
+        background-image: url(../img/8.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 100vh;
+    }
+}
